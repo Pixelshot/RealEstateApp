@@ -6,7 +6,7 @@ const Property = () => {
     const {id} = useLocalSearchParams(); // automatically set up id search using react native's way
     return (
         <View>
-            <Text>[Id</Text>
+            <Text>Property {id}</Text>
         </View>
     )
 }
